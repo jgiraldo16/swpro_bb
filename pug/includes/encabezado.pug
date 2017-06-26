@@ -1,0 +1,37 @@
+section.welcome
+    header.banner(role="banner")#header
+        .container
+            a(href="urlCasa").logo
+                img(src="images/logo.svg", alt="Logo Swpro")            
+
+            button.btnSearch(type="button", data-toggle="collapse", data-target="#blockSearch", aria-expanded="false")
+                i.fa.fa-search(aria-hidden="true")
+
+            button.btnMenu(type="button", data-toggle="collapse", data-target="#mainMenuContainer", aria-expanded="false")
+                i.fa.fa-bars(aria-hidden="true")
+
+            form.collapse#blockSearch(action="#")
+                .blockSearchContainer
+                    input(type="text", placeholder="Buscar...")
+                    input(type="submit", value="Buscar")
+
+            nav#mainMenuContainer.collapse
+                ul
+                    li.active
+                        a(href="urlCasa") Inicio
+                    li
+                        a(href="#") Servicios
+                    li
+                        a(href="#") Blog
+                    li
+                        a(href="#") Contacto
+
+                .logins
+                    a(href="https://www.swpro.com.co/login/", target="_blank").btn.btn-block.btn-secondary.btnIngresar Ingresar
+                    a(href="http://cyrius.herokuapp.com/", target="_blank").btn.btn-block.btn-secondary.btnCyrius Cyrius
+    
+    .welcome-text.text-xs-center
+        .container
+            h2.display-4 Bienvenidos a Swpro
+
+            p Desarrollo de software a la medida de su empresa

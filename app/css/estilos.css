@@ -1,0 +1,145 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+.welcome {
+  background: url("../images/bgFront.jpg") no-repeat center top;
+  -webkit-background-size: cover;
+          background-size: cover;
+  color: #fff;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 100vh;
+}
+.welcome .welcome-text {
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1 1 auto;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+}
+.welcome .banner {
+  color: #fff;
+  padding: 1rem 0;
+}
+.welcome .banner .container {
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+}
+.welcome .banner .container .logo img {
+  width: 175px;
+}
+.welcome .btnMenu,
+.welcome .btnSearch {
+  background: transparent;
+  border: 0;
+  color: #fff;
+  font-size: 2rem;
+  margin: 0;
+  padding: 0 0.5rem;
+}
+.welcome .btnMenu:focus,
+.welcome .btnSearch:focus {
+  outline: 0;
+}
+.welcome .btnSearch {
+  margin-left: auto;
+  margin-right: 0.8rem;
+}
+.welcome #blockSearch {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1 1 100%;
+      -ms-flex: 1 1 100%;
+          flex: 1 1 100%;
+}
+.welcome .blockSearchContainer {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 3rem;
+  margin: 1rem 0;
+}
+.welcome .blockSearchContainer input[type="text"] {
+  border: 0;
+  -webkit-border-radius: 5px 0 0 5px;
+          border-radius: 5px 0 0 5px;
+  padding: 1rem;
+}
+.welcome .blockSearchContainer input[type="submit"] {
+  background: #20a599;
+  border: 0;
+  -webkit-border-radius: 0 5px 5px 0;
+          border-radius: 0 5px 5px 0;
+  color: #fff;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1 1 auto;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+}
+.welcome nav#mainMenuContainer {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1 1 100%;
+      -ms-flex: 1 1 100%;
+          flex: 1 1 100%;
+}
+.welcome nav#mainMenuContainer ul {
+  list-style: none;
+  margin: 1rem 0 0 0;
+  padding: 0;
+}
+.welcome nav#mainMenuContainer ul a {
+  border-top: 1px solid #a7a7a6;
+  color: #eeeeef;
+  display: block;
+  padding: 0.8rem 0;
+  text-align: center;
+  text-decoration: none;
+}
+.welcome nav#mainMenuContainer ul a:hover {
+  color: #20a599;
+}
+.welcome nav#mainMenuContainer ul li.active a {
+  color: #20a599;
+}
+.logins .btn {
+  border: 0;
+  color: #fff;
+  -webkit-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+.logins a.btnIngresar {
+  background: #1bb7d0;
+}
+.logins a.btnIngresar:hover {
+  background: #158fa3;
+}
+.logins a.btnCyrius {
+  background: #20a599;
+}
+.logins a.btnCyrius:hover {
+  background: #187a71;
+}
