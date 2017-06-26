@@ -121,22 +121,24 @@
 .welcome nav#mainMenuContainer ul li.active a {
   color: #20a599;
 }
-.logins .btn {
+.btn {
   border: 0;
   color: #fff;
   -webkit-transition: all 0.5s ease;
   -o-transition: all 0.5s ease;
   transition: all 0.5s ease;
 }
-.logins a.btnIngresar {
+.btnAzul {
   background: #1bb7d0;
 }
-.logins a.btnIngresar:hover {
+.btnAzul:hover {
   background: #158fa3;
+  color: #eeeeef;
 }
-.logins a.btnCyrius {
+.btnVerdeMenta {
   background: #20a599;
 }
-.logins a.btnCyrius:hover {
+.btnVerdeMenta:hover {
   background: #187a71;
+  color: #eeeeef;
 }
