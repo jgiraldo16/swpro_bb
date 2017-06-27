@@ -1,0 +1,44 @@
+section.latestWorks {
+  background: gris_1;
+}
+section.latestWorks h1 {
+  padding: 1rem;
+}
+section.latestWorks a {
+  text-decoration: none;
+}
+section.latestWorks a h4 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 1rem;
+  color: gris_3;
+}
+section.latestWorks .container {
+  padding-left: 0;
+  padding-right: 0;
+}
+section.latestWorks .owl-nav {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0.3rem 0;
+}
+section.latestWorks .owl-prev,
+section.latestWorks .owl-next {
+  font-size: 3rem;
+  margin: 0 0.5rem;
+  color: gris_3;
+  -webkit-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+section.latestWorks .owl-prev:hover,
+section.latestWorks .owl-next:hover {
+  color: gris_2;
+}

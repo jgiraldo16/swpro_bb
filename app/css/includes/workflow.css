@@ -1,0 +1,10 @@
+.workflow {
+  background: #222c37;
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+}
+.workflow img {
+  margin-bottom: 0.5rem;
+  max-width: 60px;
+}

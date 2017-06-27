@@ -2,7 +2,7 @@
 html(lang="es")
 head
     meta(charset="UTF-8")
-    meta(name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes, user-scalable=no")
+    meta(name="viewport" content="width=device-width, initial-scale=1, user-scalable=no")
     meta(http-equiv="X-UA-Compatible", content="ie=edge")
 
     //Bootstrap
@@ -11,14 +11,21 @@ head
     //Font Awesome
     link(rel="stylesheet", href="css/font-awesome.min.css")
 
+    //Carousel
+    link(rel="stylesheet", href="css/owl.carousel.min.css")
+    link(rel="stylesheet", href="css/owl.theme.default.min.css")
+
     //Fuente
     link(href="https://fonts.googleapis.com/css?family=Roboto", rel="stylesheet")
 
     //Estilos
     link(rel="stylesheet", href="css/estilos.css")
     title Swpro | Desarrollo de software
+
+    
 body
     include includes/encabezado.pug
     include includes/loquehacemos.pug
-    include includes/lorem.pug
+    include includes/workflow.pug
+    include includes/latestWorks.pug
     include includes/footer.pug
