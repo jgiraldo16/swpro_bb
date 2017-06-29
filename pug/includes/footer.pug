@@ -1,5 +1,32 @@
 footer
-    script(src="js/jquery-3.2.1.min.js")
-    script(src="js/bootstrap.min.js")
-    script(src="js/owl.carousel.min.js")
-    script(src="js/myScript.js")
+    .container
+        .row
+            .col-md-6
+                
+                a(href="#")
+                    img(src="images/logo.svg", alt="")
+                ul.listfooterMenu
+                    li
+                        a(href="#") Política de privacidad
+                    li
+                        a(href="#") Blog
+                    li
+                        a(href="#") Contacto
+                    li
+                        a(href="#") Equipo
+            
+            .col-md-5.offset-md-1
+                p Suscríbete para obtener noticias y promociones de Swpro
+                form#suscribeField
+                    .suscribeFieldContainer
+                        input(type="text", placeholder="Ingresa tu correo electrónico", title="Tu correo para suscribirte")
+                        input(type="submit", value="Suscribirse")
+
+
+                
+
+
+script(src="js/jquery-3.2.1.min.js")
+script(src="js/bootstrap.min.js")
+script(src="js/owl.carousel.min.js")
+script(src="js/myScript.js")

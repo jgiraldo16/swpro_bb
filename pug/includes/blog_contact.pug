@@ -32,7 +32,7 @@ section.blog__contact
             .col-xs-12.col-md-5.offset-md-1
                 h2.text-xs-center.headBlogContact Contáctanos
                 p En qué te podemos ayudar
-                    form.contactForm
+                    form(action="#").contactForm
                         .form-group
                             label(for="nombre") Nombres:
                             input(type="text", placeholder="tu nombre").form-control
@@ -40,3 +40,4 @@ section.blog__contact
                             input(type="email", placeholder="tu correo").form-control
                             label(for="Mensaje") Email:
                             textarea(type="email", placeholder="tu mensaje", rows="3").form-control
+                            button.m-t-1.btn.btn-block.btnAzul(type="submit") Enviar

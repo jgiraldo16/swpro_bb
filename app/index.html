@@ -146,7 +146,7 @@
         <div class="col-xs-12 col-md-5 offset-md-1">
           <h2 class="text-xs-center headBlogContact">Contáctanos</h2>
           <p>En qué te podemos ayudar
-            <form class="contactForm">
+            <form class="contactForm" action="#">
               <div class="form-group">
                 <label for="nombre">Nombres:</label>
                 <input class="form-control" type="text" placeholder="tu nombre"/>
@@ -154,6 +154,7 @@
                 <input class="form-control" type="email" placeholder="tu correo"/>
                 <label for="Mensaje">Email:</label>
                 <textarea class="form-control" type="email" placeholder="tu mensaje" rows="3"></textarea>
+                <button class="m-t-1 btn btn-block btnAzul" type="submit">Enviar</button>
               </div>
             </form>
           </p>
@@ -162,9 +163,30 @@
     </div>
   </section>
   <footer>
-    <script src="js/jquery-3.2.1.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/myScript.js"></script>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6"><a href="#"><img src="images/logo.svg" alt=""/></a>
+          <ul class="listfooterMenu">
+            <li><a href="#">Política de privacidad</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contacto</a></li>
+            <li><a href="#">Equipo</a></li>
+          </ul>
+        </div>
+        <div class="col-md-5 offset-md-1">
+          <p>Suscríbete para obtener noticias y promociones de Swpro</p>
+          <form id="suscribeField">
+            <div class="suscribeFieldContainer">
+              <input type="text" placeholder="Ingresa tu correo electrónico" title="Tu correo para suscribirte"/>
+              <input type="submit" value="Suscribirse"/>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
   </footer>
+  <script src="js/jquery-3.2.1.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/myScript.js"></script>
 </body>

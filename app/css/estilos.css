@@ -236,3 +236,60 @@ section.latestWorks .owl-next:hover {
 .blog__contact .container a article .detailPost .dateBlog {
   font-weight: bold;
 }
+footer {
+  background: #222c37;
+  padding: 1rem;
+  color: #fff;
+}
+footer img {
+  max-width: 30%;
+  margin: 1rem 0;
+}
+footer .listfooterMenu {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0 0 0 -0.5rem;
+}
+footer .listfooterMenu li {
+  margin: 0.7rem;
+}
+footer .listfooterMenu li a {
+  color: #fff;
+  text-decoration: none;
+}
+footer .listfooterMenu li a:hover {
+  color: #a7a7a6;
+}
+footer .suscribeFieldContainer {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+footer .suscribeFieldContainer input[type="text"] {
+  border: 0;
+  padding: 0.7rem;
+  -webkit-border-radius: 5px 0 0 5px;
+          border-radius: 5px 0 0 5px;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1 0 auto;
+      -ms-flex: 1 0 auto;
+          flex: 1 0 auto;
+}
+footer .suscribeFieldContainer input[type="submit"] {
+  background: #20a599;
+  border: 0;
+  -webkit-border-radius: 0 5px 5px 0;
+          border-radius: 0 5px 5px 0;
+  color: #fff;
+  padding: 0.7rem;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1 1 auto;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+  margin: 0;
+}
