@@ -23,4 +23,15 @@ $(document).ready(function(){
                 }
             }
     });
+
+    //Efecto hover en imagenes del workflow, cambia el tono
+    var seleccion = $('#contenedorWorkflow img');
+    console.log(seleccion);
+    seleccion.mouseover(function(){
+        $(this).css("filter" , "brightness(150%)");
+    });
+    seleccion.mouseout(function(){
+        $(this).css("filter", "none");
+    });
+
 });

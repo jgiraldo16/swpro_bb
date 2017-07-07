@@ -35,7 +35,7 @@ gulp.task('compImagenes', function(){
 gulp.task('styles', function(){
     gulp.src('stylus/**/*.styl')
         .pipe(stylus())
-        //.pipe(cssnano())
+        .pipe(cssnano())
         .pipe(autoprefixer({
             browsers: ['last 10 versions'],
             cascade: true
